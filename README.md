@@ -1,4 +1,4 @@
-# Hotel FAQ Chatbot using Multinomial Logical Regression
+# Hotel FAQ Chatbot using Multinomial Logistic Regression
 
 ### Overview
 - This project implements a machine-learning-based FAQ chatbot for an imaginary hotel named Astra Imperium Hotel, located in Kuala Lumpur.
@@ -13,7 +13,7 @@
 2. Go to terminal in the project directory or virtual enviroment
 3. Install dependencies: <code>pip install -r requirements.txt</code>
 4. Run training.ipynb to train the model on the data in the "data" folder and save the trained artifacts in the "joblib" folder.
-5. Run the <a href="">streamlit app</a>, keep in mind it loads pretrained joblib file stored in this repository
+5. Run the <a href="https://aihotel-faq-logistic-regression.streamlit.app/">streamlit app</a>, keep in mind it loads pretrained joblib file stored in this repository
 
 ### Customizing Responses
 - All chatbot responses are stored in the response folder:
